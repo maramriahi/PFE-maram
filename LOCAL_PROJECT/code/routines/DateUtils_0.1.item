@@ -1,0 +1,28 @@
+package routines;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+public class DateUtils {
+    public static String convertDate(String inputDate) {
+        String[] formats = {"dd/MM/yyyy", "MM/dd/yyyy", "EEE MMM dd HH:mm:ss z yyyy"};
+
+        SimpleDateFormat inputFormat = null;
+        for (String format : formats) {
+            inputFormat = new SimpleDateFormat(format, Locale.ENGLISH);
+            try {
+                Date date = inputFormat.parse(inputDate);
+                SimpleDateFormat outputFormat = new SimpleDateFormat("dd/MM/yyyy");
+              //  System.out.println(outputFormat.format(date));
+                return outputFormat.format(date);
+            } catch (ParseException e) {
+                // If parsing fails, try the next format
+            }
+        }
+        // Return null if none of the formats match
+        return null;
+    }
+ 
+}

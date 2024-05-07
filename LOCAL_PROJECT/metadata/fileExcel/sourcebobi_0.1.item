@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_aiiHkftfEe6kGYD6KfKjQw" name="sourcebobi" dataPackage="_aiiHkvtfEe6kGYD6KfKjQw" Server="Localhost 127.0.0.1" FilePath="C:/Users/lenovo/Downloads/Indicateur Déchet Extrusion 2024 (2).xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="5" UseLimit="true" LimitValue="1567" FirstLineCaption="true" SheetName="Etat" firstColumn="1" lastColumn="20" thousandSeparator="','" decimalSeparator="'.'" sheetList="Etat:w&#xA;" generationMode="EVENT_MODE">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+    <sheetColumns>R</sheetColumns>
+    <sheetColumns>S</sheetColumns>
+    <sheetColumns>T</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_aiiHkvtfEe6kGYD6KfKjQw" name="default" dataManager="_aiiHkftfEe6kGYD6KfKjQw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_aiiHk_tfEe6kGYD6KfKjQw" id="_LeeSgPtfEe6kGYD6KfKjQw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHlPtfEe6kGYD6KfKjQw" label="Date_Etat" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHlftfEe6kGYD6KfKjQw" label="Semaine" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHlvtfEe6kGYD6KfKjQw" label="Mois" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHl_tfEe6kGYD6KfKjQw" label="Annee" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHmPtfEe6kGYD6KfKjQw" label="N_Bobine" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHmftfEe6kGYD6KfKjQw" label="Type___section" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHmvtfEe6kGYD6KfKjQw" label="Couleur" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHm_tfEe6kGYD6KfKjQw" label="Longueur__km" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHnPtfEe6kGYD6KfKjQw" label="Qtte_rejetee" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHnftfEe6kGYD6KfKjQw" label="production_extrusion" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHnvtfEe6kGYD6KfKjQw" label="PMMI" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHn_tfEe6kGYD6KfKjQw" label="Defaut" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHoPtfEe6kGYD6KfKjQw" label="Poids_theorique" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHoftfEe6kGYD6KfKjQw" label="Service" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHovtfEe6kGYD6KfKjQw" label="Ligne_Unite" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHo_tfEe6kGYD6KfKjQw" label="Type" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHpPtfEe6kGYD6KfKjQw" label="Date_de_production" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHpftfEe6kGYD6KfKjQw" label="semaine_de_production" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHpvtfEe6kGYD6KfKjQw" label="mois_production" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aiiHp_tfEe6kGYD6KfKjQw" label="annee_production" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
